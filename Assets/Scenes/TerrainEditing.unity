@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -198,6 +198,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grave3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f7226c04056e964449be2e7c1db7ef5c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7226c04056e964449be2e7c1db7ef5c, type: 3}
 --- !u!4 &10014373 stripped
@@ -280,6 +284,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grave3 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f7226c04056e964449be2e7c1db7ef5c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7226c04056e964449be2e7c1db7ef5c, type: 3}
 --- !u!4 &48985838 stripped
@@ -357,6 +365,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
       propertyPath: m_Name
       value: gravedirt2 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
@@ -448,6 +460,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeadSpruce2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ce5da9ad893d3d14284035bb29ef7f6d, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce5da9ad893d3d14284035bb29ef7f6d, type: 3}
 --- !u!1 &134935026
@@ -459,7 +475,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 134935027}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TerrainPrefabs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -554,6 +570,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravedirt2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
 --- !u!4 &138940790 stripped
@@ -637,6 +657,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grave1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0779c1425e8b4bb4095759e491f6daf0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0779c1425e8b4bb4095759e491f6daf0, type: 3}
 --- !u!4 &283312270 stripped
@@ -718,6 +742,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f7226c04056e964449be2e7c1db7ef5c, type: 3}
       propertyPath: m_Name
       value: grave3 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f7226c04056e964449be2e7c1db7ef5c, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7226c04056e964449be2e7c1db7ef5c, type: 3}
@@ -801,6 +829,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grave3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f7226c04056e964449be2e7c1db7ef5c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7226c04056e964449be2e7c1db7ef5c, type: 3}
 --- !u!4 &338582541 stripped
@@ -882,6 +914,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f7226c04056e964449be2e7c1db7ef5c, type: 3}
       propertyPath: m_Name
       value: grave3 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f7226c04056e964449be2e7c1db7ef5c, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7226c04056e964449be2e7c1db7ef5c, type: 3}
@@ -973,6 +1009,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeadSpruce2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ce5da9ad893d3d14284035bb29ef7f6d, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce5da9ad893d3d14284035bb29ef7f6d, type: 3}
 --- !u!1001 &450155939
@@ -1050,6 +1090,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grave2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b89a08b9a2526643814bdfd7efacba2, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b89a08b9a2526643814bdfd7efacba2, type: 3}
 --- !u!4 &450155940 stripped
@@ -1066,7 +1110,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 491928616}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Graves
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1199,6 +1243,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grave2 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b89a08b9a2526643814bdfd7efacba2, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b89a08b9a2526643814bdfd7efacba2, type: 3}
 --- !u!4 &518819755 stripped
@@ -1294,6 +1342,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeadOak2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 87740b85fec00bd43b176ac36a9713aa, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87740b85fec00bd43b176ac36a9713aa, type: 3}
 --- !u!1001 &585946977
@@ -1370,6 +1422,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b89a08b9a2526643814bdfd7efacba2, type: 3}
       propertyPath: m_Name
       value: grave2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b89a08b9a2526643814bdfd7efacba2, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b89a08b9a2526643814bdfd7efacba2, type: 3}
@@ -1449,6 +1505,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravedirt2 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
 --- !u!4 &640232090 stripped
@@ -1527,6 +1587,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeadSpruce3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9f5035a57046f141ade106212feda05, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9f5035a57046f141ade106212feda05, type: 3}
 --- !u!1001 &687426456
@@ -1599,6 +1663,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 792952b291b95574ba0e35040e7c1fe4, type: 3}
       propertyPath: m_Name
       value: gravedirt1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 792952b291b95574ba0e35040e7c1fe4, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 792952b291b95574ba0e35040e7c1fe4, type: 3}
@@ -1678,6 +1746,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravedirt1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 792952b291b95574ba0e35040e7c1fe4, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 792952b291b95574ba0e35040e7c1fe4, type: 3}
 --- !u!4 &693961924 stripped
@@ -1713,14 +1785,14 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 0.4433962, g: 0.43385696, b: 0.40784085, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -1772,7 +1844,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 8.38, y: 18.93, z: -10.59}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1849,6 +1921,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0779c1425e8b4bb4095759e491f6daf0, type: 3}
       propertyPath: m_Name
       value: grave1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0779c1425e8b4bb4095759e491f6daf0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0779c1425e8b4bb4095759e491f6daf0, type: 3}
@@ -1928,6 +2004,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravedirt1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 792952b291b95574ba0e35040e7c1fe4, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 792952b291b95574ba0e35040e7c1fe4, type: 3}
 --- !u!4 &865375652 stripped
@@ -2005,6 +2085,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
       propertyPath: m_Name
       value: gravedirt2 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
@@ -2141,6 +2225,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0779c1425e8b4bb4095759e491f6daf0, type: 3}
       propertyPath: m_Name
       value: grave1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0779c1425e8b4bb4095759e491f6daf0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0779c1425e8b4bb4095759e491f6daf0, type: 3}
@@ -2304,6 +2392,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravedirt2 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
 --- !u!4 &976243198 stripped
@@ -2382,6 +2474,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravedirt1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 792952b291b95574ba0e35040e7c1fe4, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 792952b291b95574ba0e35040e7c1fe4, type: 3}
 --- !u!4 &984393965 stripped
@@ -2459,6 +2555,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
       propertyPath: m_Name
       value: gravedirt2 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
@@ -2542,6 +2642,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
       propertyPath: m_Name
       value: gravedirt2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
@@ -2633,6 +2737,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravedirt2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
 --- !u!4 &1285120224 stripped
@@ -2710,6 +2818,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
       propertyPath: m_Name
       value: gravedirt2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
@@ -2793,6 +2905,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grave3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f7226c04056e964449be2e7c1db7ef5c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7226c04056e964449be2e7c1db7ef5c, type: 3}
 --- !u!4 &1437180739 stripped
@@ -2809,7 +2925,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1524909860}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trees
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2909,6 +3025,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravedirt1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 792952b291b95574ba0e35040e7c1fe4, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 792952b291b95574ba0e35040e7c1fe4, type: 3}
 --- !u!4 &1545942086 stripped
@@ -2986,6 +3106,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
       propertyPath: m_Name
       value: gravedirt2 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
@@ -3073,6 +3197,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeadOak2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 87740b85fec00bd43b176ac36a9713aa, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87740b85fec00bd43b176ac36a9713aa, type: 3}
 --- !u!1001 &1585874677
@@ -3149,6 +3277,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b89a08b9a2526643814bdfd7efacba2, type: 3}
       propertyPath: m_Name
       value: grave2 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b89a08b9a2526643814bdfd7efacba2, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b89a08b9a2526643814bdfd7efacba2, type: 3}
@@ -3227,6 +3359,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0779c1425e8b4bb4095759e491f6daf0, type: 3}
       propertyPath: m_Name
       value: grave1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0779c1425e8b4bb4095759e491f6daf0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0779c1425e8b4bb4095759e491f6daf0, type: 3}
@@ -3310,6 +3446,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
       propertyPath: m_Name
       value: gravedirt2 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
@@ -3397,6 +3537,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b89a08b9a2526643814bdfd7efacba2, type: 3}
       propertyPath: m_Name
       value: grave2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b89a08b9a2526643814bdfd7efacba2, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b89a08b9a2526643814bdfd7efacba2, type: 3}
@@ -3546,6 +3690,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeadSpruce3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9f5035a57046f141ade106212feda05, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9f5035a57046f141ade106212feda05, type: 3}
 --- !u!4 &1817421528 stripped
@@ -3623,6 +3771,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
       propertyPath: m_Name
       value: gravedirt2 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17f46e1128bd9b146bda8a5f771d7152, type: 3}
@@ -3780,6 +3932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gravedirt1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 792952b291b95574ba0e35040e7c1fe4, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 792952b291b95574ba0e35040e7c1fe4, type: 3}
 --- !u!4 &1990435580 stripped
@@ -3858,6 +4014,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grave1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0779c1425e8b4bb4095759e491f6daf0, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0779c1425e8b4bb4095759e491f6daf0, type: 3}
 --- !u!4 &2017131783 stripped
@@ -3935,6 +4095,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0779c1425e8b4bb4095759e491f6daf0, type: 3}
       propertyPath: m_Name
       value: grave1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0779c1425e8b4bb4095759e491f6daf0, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0779c1425e8b4bb4095759e491f6daf0, type: 3}
@@ -4022,6 +4186,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeadSpruce3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9f5035a57046f141ade106212feda05, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9f5035a57046f141ade106212feda05, type: 3}
 --- !u!1001 &2067586064
@@ -4098,6 +4266,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b89a08b9a2526643814bdfd7efacba2, type: 3}
       propertyPath: m_Name
       value: grave2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b89a08b9a2526643814bdfd7efacba2, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b89a08b9a2526643814bdfd7efacba2, type: 3}
