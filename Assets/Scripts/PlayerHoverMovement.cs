@@ -7,8 +7,10 @@ public class PlayerHoverMovement : MonoBehaviour
     public float MaxSpeed = 10f;
     public float DistanceFromGround = 30f;
     public Transform orientation;
+    [SerializeField] private LayerMask terrain_layer;
 
-    private void Update() {
+
+    private void FixedUpdate() {
         float Hor = Input.GetAxis("Horizontal");
         float Ver = Input.GetAxis("Vertical");
 
@@ -20,7 +22,7 @@ public class PlayerHoverMovement : MonoBehaviour
 
         RaycastHit hit;
 
-        if(Physics.Raycast(transform.position, Vector3.down, out hit)) {
+        if(Physics.Raycast(transform.position, Vector3.down, out hit, Mathf.Infinity, terrain_layer)) {
             newPos.y = (hit.point + Vector3.up * DistanceFromGround).y;
         }
 

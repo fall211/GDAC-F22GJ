@@ -22,7 +22,7 @@ public class Grabbable : MonoBehaviour
 
     private void FixedUpdate(){
         if (this.grab_point != null){
-            float item_move_speed = 10f;
+            float item_move_speed = 20f;
             Vector3 new_pos = Vector3.Lerp(transform.position, grab_point.position, Time.deltaTime * item_move_speed);
             obj_rigidbody.MovePosition(new_pos);
         }
