@@ -5,10 +5,10 @@ using UnityEngine;
 public class PlayerHoverMovement : MonoBehaviour
 {
     public float MaxSpeed = 10f;
-    public float DistanceFromGround = 20f;
+    public float DistanceFromGround = 30f;
     public Transform orientation;
 
-    void Update() {
+    private void Update() {
         float Hor = Input.GetAxis("Horizontal");
         float Ver = Input.GetAxis("Vertical");
 
@@ -21,9 +21,8 @@ public class PlayerHoverMovement : MonoBehaviour
         RaycastHit hit;
 
         if(Physics.Raycast(transform.position, Vector3.down, out hit)) {
-            Debug.Log("hit");
             newPos.y = (hit.point + Vector3.up * DistanceFromGround).y;
-        } 
+        }
 
         transform.position = newPos;
     }
