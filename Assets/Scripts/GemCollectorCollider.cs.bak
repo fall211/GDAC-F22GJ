@@ -2,16 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GemCollectorCollider : MonoBehaviour
 {
 	private int gems_collected;
-	public ParticleSystem particle_system;
+	public ParticleSystem particle_system1;
+	public ParticleSystem particle_system2;
+	public ParticleSystem particle_system3;
 	public TMP_Text text_field;
 
 
 	void Start(){
-		var emissions = particle_system.emission;
+		var emissions1 = particle_system1.emission;
+		emissions.enabled = false;		
+		var emissions2 = particle_system2.emission;
+		emissions.enabled = false;		
+		var emissions3 = particle_system3.emission;
 		emissions.enabled = false;
 	}
 
@@ -19,9 +26,14 @@ public class GemCollectorCollider : MonoBehaviour
 		gems_collected++;
 
 		if (gems_collected == 3) {
-			var emissions = particle_system.emission;
-			emissions.enabled = true;
-			text_field.text = ("Well done!");
+			var emissions1 = particle_system1.emission;
+			emissions1.enabled = true;			
+			var emissions2 = particle_system2.emission;
+			emissions2.enabled = true;			
+			var emissions3 = particle_system3.emission;
+			emissions3.enabled = true;
+			text_field.text = ("Well done!\nTry not to die so soon this time!");
+			StartCoroutine(ReturnToMenu());
 
 		}
 	}
@@ -30,4 +42,8 @@ public class GemCollectorCollider : MonoBehaviour
 		gems_collected--;
 	}
 
+	IEnumerator ReturnToMenu(){
+		yield return new WaitForSeconds(5);
+		SceneManager.LoadScene("MainMenu");
+	}
 }
