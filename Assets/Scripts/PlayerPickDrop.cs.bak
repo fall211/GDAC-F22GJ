@@ -23,6 +23,7 @@ public class PlayerPickDrop : MonoBehaviour
             }
             else{
                 grabbed_object.Drop();
+                Debug.Log("Drop");
                 grabbed_object = null;
 
             }
