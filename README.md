@@ -1,2 +1,3 @@
 # october_game_jam
-game jam with hunter
+3d game made for davis game jam. 
+https://fall211.itch.io/revive-minigame
