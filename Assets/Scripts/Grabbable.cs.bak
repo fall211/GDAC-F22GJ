@@ -1,0 +1,49 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Grabbable : MonoBehaviour
+{
+    private Rigidbody obj_rigidbody;
+    private Transform grab_point;
+	private Transform box;
+    [SerializeField] private LayerMask terrain_layer;
+
+
+    private void Awake(){
+        obj_rigidbody = GetComponent<Rigidbody>();
+    }
+    public void Grab(Transform grab_point) {
+        this.grab_point =  grab_point;
+		this.box = grab_point;
+        obj_rigidbody.useGravity = false;
+    }
+
+    public void Drop() {
+        this.grab_point = null;
+        obj_rigidbody.useGravity = true;
+    }
+
+    private void FixedUpdate(){
+        float item_move_speed = 20f;
+		RaycastHit hit;
+		Vector3 updated_gp;
+		
+		if (this.grab_point != null){
+
+			
+			Physics.Raycast(grab_point.position, Vector3.down, out hit, Mathf.Infinity, terrain_layer);
+			if (grab_point.position.y - hit.point.y < 5f) {
+				updated_gp = hit.point;
+				updated_gp.y = (hit.point.y + 5f);
+				grab_point.position = updated_gp;
+			}
+			else{
+				grab_point = box;
+			}
+            Vector3 new_pos = Vector3.Lerp(transform.position, grab_point.position, Time.deltaTime * item_move_speed);
+            obj_rigidbody.MovePosition(new_pos);
+		
+        }
+    }
+}

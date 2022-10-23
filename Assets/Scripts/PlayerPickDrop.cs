@@ -14,9 +14,9 @@ public class PlayerPickDrop : MonoBehaviour
     void Update()
     {
         RaycastHit hit;
-        if (Input.GetKeyDown(KeyCode.E)) {
+        if (Input.GetMouseButtonDown(0)) {
             if (grabbed_object == null) {
-                Physics.Raycast(camera_pos.position, camera_pos.forward, out hit, 15f, grab_layer);
+                Physics.Raycast(camera_pos.position, camera_pos.forward, out hit, 25f, grab_layer);
                 if (hit.transform.TryGetComponent(out grabbed_object)) {
                     grabbed_object.Grab(grab_point);
                 }
